@@ -7,5 +7,5 @@ students_scores = {
 for name in students_scores:
     scores_info = students_scores[name]
     scores_info['总成绩'] = scores_info['语文'] + scores_info['数学'] + scores_info['英语']
-    print(name,scores_info)
-#print (students_scores, end = '')    
+    print(name + ':',scores_info)
+print (students_scores)    
